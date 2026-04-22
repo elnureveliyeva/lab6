@@ -1,1 +1,53 @@
+Html kodu:
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <button class="mavi">Normal</button>
+        <button class="out">Outline</button>
+        <button class="yasil">Ugur</button>
+        <button class="qirmizi">Tehluke</button>
+    </div>
+</body>
+</html>
+
+
+CSS kodu:
+
+div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin: 100px;
+    padding-right: 1000px;
+}
+.mavi{
+    background-color: deepskyblue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.out{
+     background-color: white;
+     color: deepskyblue;
+     border-color: deepskyblue;
+     border-radius: 5px;
+}
+.yasil{
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.qirmizi{
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
