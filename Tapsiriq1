@@ -1,1 +1,41 @@
+Html kodu:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <table>
+        <tr>
+            <th>Mehsul</th>
+            <th>Qiymet</th>
+            <th>Status</th>
+        </tr>
+        <tr>
+            <td>Laptop</td>
+            <td>1200Azn</td>
+            <td class="reng">Movcud</tr>
+        </tr>
+    </table>
+</body>
+</html>
+
+
+CSS kodu:
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+th{
+    background-color: midnightblue;
+    color: white;
+    text-align: start;
+}
+.reng{
+    color: green;
+}
+
 
