@@ -16,7 +16,7 @@ Html kodu:
         <tr>
             <td>Laptop</td>
             <td>1200Azn</td>
-            <td class="reng">Movcud</tr>
+            <td class="reng">Movcud</td>
         </tr>
     </table>
 </body>
