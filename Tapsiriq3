@@ -1,1 +1,34 @@
+Html kodu:
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#" class="login">Login</a>
+    </div>
+</body>
+</html>
+
+
+CSS kodu:
+
+div{
+    background-color: black;
+    width: 100%;
+    padding: 5px;
+    display: flex;
+}
+a{
+    color: white;
+    margin: 10px;
+}
+.login{
+    margin-left: auto;
+    padding: 5px;
+}
